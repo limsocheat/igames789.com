@@ -8,6 +8,29 @@ class PageController extends Controller
 {
     public function index()
     {
-        return view('pages.index');
+
+        $sliders    = [
+            [
+                'image_url'     => asset('images/slider/1.jpg'),
+            ],
+            [
+                'image_url'     => asset('images/slider/2.jpg'),
+            ],
+            [
+                'image_url'     => asset('images/slider/3.jpg'),
+            ],
+            [
+                'image_url'     => asset('images/slider/4.jpg'),
+            ],
+            [
+                'image_url'     => asset('images/slider/5.jpg'),
+            ],
+        ];
+
+        $data  = [
+            'sliders'   => $sliders,
+        ];
+
+        return view('pages.index')->with($data);
     }
 }
