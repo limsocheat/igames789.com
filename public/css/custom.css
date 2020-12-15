@@ -1,0 +1,192 @@
+body {
+    background-color: #1e1e1e;
+}
+img {
+    max-width: 100% !important;
+}
+
+.container {
+    min-width: 1240px !important;
+}
+
+b-content {
+    padding-bottom: 25px;
+}
+
+.help-box {
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 0px 75px;
+}
+
+.help-box ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    height: 210px;
+}
+
+.help-box ul li a {
+    display: flex;
+}
+
+.help-box ul li {
+    display: flex;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+    top: 0px;
+}
+
+.help-box ul li:hover {
+    position: relative;
+    top: -6px;
+}
+
+.help-info h4 {
+    color: #5e676c;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.help-ico {
+    margin-right: 15px;
+}
+
+.cm-sn {
+    border: 3px solid #cd4a98;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3px 10px;
+    color: #cd4a98;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.help-info p {
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+/********************************** Index content **********************************/
+.ind-in ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    position: relative;
+}
+
+.ind-in ul li a {
+    position: relative;
+    display: flex;
+}
+
+.txt-ind {
+    position: absolute;
+    top: 0px;
+    color: #620090;
+    text-shadow: 1px 1px 1px #252525;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.btn-zoom {
+    transition: transform 0.2s;
+}
+
+.btn-zoom:hover {
+    transform: scale(1.03);
+}
+
+.ind-in ul li a .txt-ind {
+    transition: transform 0.2s;
+}
+
+.ind-in ul li a:hover .txt-ind {
+    transform: scale(1.03);
+}
+
+.ind-in-2 ul li a .txt-ind {
+    transition: transform 0.2s;
+}
+
+.ind-in-2 ul li a:hover .txt-ind {
+    transform: scale(1.03);
+}
+
+.ind-sg {
+    position: absolute;
+    top: 70px;
+    right: 55px;
+}
+
+.ind-sport {
+    position: absolute;
+    top: 49px;
+    left: 100px;
+}
+
+.ind-casino {
+    position: absolute;
+    top: 20px;
+    left: 85px;
+}
+
+.ind-in ul li:nth-child(2) {
+    position: absolute;
+    right: 0px;
+    top: 22px;
+}
+
+.ind-in ul li:nth-child(3) {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+img.btn-zoom {
+}
+
+.ind-in-2 ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    position: relative;
+}
+
+.ind-in-2 ul li a {
+    position: relative;
+    display: flex;
+}
+
+.ind-in-2 ul li:nth-child(2) {
+    position: absolute;
+    right: 0px;
+}
+
+.ind-in-2 {
+    margin-top: 10px;
+}
+
+.ind-live {
+    position: absolute;
+    top: 35px;
+    right: 100px;
+}
+
+.ind-other {
+    position: absolute;
+    top: 35px;
+    left: 45px;
+}
