@@ -190,3 +190,11 @@ img.btn-zoom {
     top: 35px;
     left: 45px;
 }
+.navbar .navbar-nav>li>a:hover{
+     color: #FFFF !important;
+     background-color:#343a40 !important;
+}
+.navbar .navbar-nav  .active .nav-link {
+     color: #FFFF !important;
+     background-color:#343a40 !important;
+}

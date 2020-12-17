@@ -35,7 +35,7 @@ Route::name('page.')->group(function () {
 
 Route::name('game.')->group(function () {
     Route::get('/baccarat', [GameController::class, 'baccarat'])->name('baccarat');
-    Route::get('/kino', [GameController::class, 'kino'])->name('kino');
+    Route::get('/kino', [GameController::class, 'index'])->name('kino');
     Route::get('/slot', [GameController::class, 'slot'])->name('slot');
     Route::get('/lottery', [GameController::class, 'lottery'])->name('lottery');
     Route::get('/baccarat_ins', [GameController::class, 'baccarat_ins'])->name('baccarat_ins');

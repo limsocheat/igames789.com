@@ -25,8 +25,7 @@ fa-fw fa-dice-six',
 ];
 
 @endphp
-
-<section id="app-top-header" style="background-color: #e8cb4e">
+<section id="app-top-header" style="background-color: #1e1e1e">
     {{-- style="background-image: url({{ asset('/img/background.png') }});
     background-repeat: no-repeat;
     background-size: cover;"> --}}
@@ -45,102 +44,99 @@ fa-fw fa-dice-six',
                     <li class="nav-item">
                         <a class="nav-link px-2 py-1 text-white text-uppercase small"
                             href="{{ route('page.terms_conditions') }}">Terms &
-                            Conditions</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-2 py-1 text-white text-uppercase small"
-                            href="{{ route('page.privacy_policy') }}">Privacy
-                            Policy</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-2 py-1 text-white text-uppercase small"
-                            href="{{ route('game.baccarat') }}">Game
-                            Rules</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-2 py-1 text-white text-uppercase small"
-                            href="{{ route('page.responsible_gambling') }}">Resposible
-                            Gaming</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-2 py-1 text-white text-uppercase small"
-                            href="{{ route('page.about') }}">About
-                            Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-2 py-1 text-white text-uppercase small"
-                            href="{{ route('page.contact') }}">Contact</a>
-                    </li>
-                </ul>
-            </div> --}}
-            <div class="col-sm-12 col-md-4">
-                <a class="btn btn-sm btn-danger mb-2" href="{{ route('page.terms_conditions') }}">Terms &
-                    Conditions</a>
-                <a class="btn btn-sm btn-danger mb-2" href="{{ route('page.privacy_policy') }}">Privacy
+            Conditions</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-2 py-1 text-white text-uppercase small"
+                    href="{{ route('page.privacy_policy') }}">Privacy
                     Policy</a>
-                <a class="btn btn-sm btn-danger mb-2" href="{{ route('game.baccarat') }}">Game
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-2 py-1 text-white text-uppercase small" href="{{ route('game.baccarat') }}">Game
                     Rules</a>
-                <a class="btn btn-sm btn-danger mb-2" href="{{ route('page.responsible_gambling') }}">Resposible
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-2 py-1 text-white text-uppercase small"
+                    href="{{ route('page.responsible_gambling') }}">Resposible
                     Gaming</a>
-                <a class="btn btn-sm btn-danger mb-2" href="{{ route('page.about') }}">&nbsp;&nbsp;&nbsp;About
-                    Us &nbsp;&nbsp;&nbsp;</a>
-                <a class="btn btn-sm btn-danger mb-2" href="{{ route('page.contact') }}">&nbsp;&nbsp;Contact
-                    Us&nbsp;</a>
-            </div>
-            <div class="col-sm-12 col-md-2">
-                <button type="submit" class="btn btn-sm btn-primary btn-block mb-2">Doposit</button>
-                <button type="submit" class="btn btn-sm btn-primary btn-block mb-2 ">Withdraw</button>
-            </div>
-            <div class="col-sm-12 col-md-4 text-right">
-                <form id="loginForm" method="POST" action="{{ route('login') }}">
-                    @csrf
-                    <ul class="nav text-white float-right" id="app-top-navbar">
-                        <a href="{{ route('register') }}">
-                            <button type="button" class="btn btn-sm btn-danger mb-2 d-inline"
-                                style="height: 90%">Register</button>
-                        </a>
-
-                        <div class="text-right d-inline mx-2">
-
-                            <label class="sr-only" for="inlineFormInputName2">Name</label>
-                            <div class="input-group input-group-sm mb-2 mr-sm-2">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text"><i class="fa fa-fw fa-user-lock"></i></div>
-                                </div>
-                                <input id="name" type="email" class="form-control @error('name') is-invalid @enderror"
-                                    name="email" value="{{ old('email') }}" required autocomplete="email" autofocus
-                                    placeholder="Email">
-                            </div>
-
-                            <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
-                            <div class="input-group input-group-sm mb-2 mr-sm-2">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text"><i class="fa fa-fw fa-lock"></i></div>
-                                </div>
-                                <input id="password" type="password"
-                                    class="form-control @error('password') is-invalid @enderror" name="password"
-                                    required autocomplete="current-password" placeholder="password">
-                            </div>
-                        </div><button id="loginBtn" type="submit"
-                            class="btn btn-sm btn-danger mb-2 d-inline">Login</button>
-                    </ul>
-                </form>
-            </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-2 py-1 text-white text-uppercase small" href="{{ route('page.about') }}">About
+                    Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-2 py-1 text-white text-uppercase small"
+                    href="{{ route('page.contact') }}">Contact</a>
+            </li>
+            </ul>
+        </div> --}}
+        <div class="col-sm-12 col-md-4">
+            <a class="btn btn-sm btn-danger mb-2" href="{{ route('page.terms_conditions') }}">Terms &
+                Conditions</a>
+            <a class="btn btn-sm btn-danger mb-2" href="{{ route('page.privacy_policy') }}">Privacy
+                Policy</a>
+            <a class="btn btn-sm btn-danger mb-2" href="{{ route('game.baccarat') }}">Game
+                Rules</a>
+            <a class="btn btn-sm btn-danger mb-2" href="{{ route('page.responsible_gambling') }}">Resposible
+                Gaming</a>
+            <a class="btn btn-sm btn-danger mb-2" href="{{ route('page.about') }}">&nbsp;&nbsp;&nbsp;About
+                Us &nbsp;&nbsp;&nbsp;</a>
+            <a class="btn btn-sm btn-danger mb-2" href="{{ route('page.contact') }}">&nbsp;&nbsp;Contact
+                Us&nbsp;</a>
         </div>
+        <div class="col-sm-12 col-md-2">
+            <button type="submit" class="btn btn-sm btn-primary btn-block mb-2">Doposit</button>
+            <button type="submit" class="btn btn-sm btn-primary btn-block mb-2 ">Withdraw</button>
+        </div>
+        <div class="col-sm-12 col-md-4 text-right">
+            <form id="loginForm" method="POST" action="{{ route('login') }}">
+                @csrf
+                <ul class="nav text-white float-right" id="app-top-navbar">
+                    <a href="{{ route('register') }}">
+                        <button type="button" class="btn btn-sm btn-danger mb-2 d-inline"
+                            style="height: 90%">Register</button>
+                    </a>
+
+                    <div class="text-right d-inline mx-2">
+
+                        <label class="sr-only" for="inlineFormInputName2">Name</label>
+                        <div class="input-group input-group-sm mb-2 mr-sm-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="fa fa-fw fa-user-lock"></i></div>
+                            </div>
+                            <input id="name" type="email" class="form-control @error('name') is-invalid @enderror"
+                                name="email" value="{{ old('email') }}" required autocomplete="email" autofocus
+                                placeholder="Email">
+                        </div>
+
+                        <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+                        <div class="input-group input-group-sm mb-2 mr-sm-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="fa fa-fw fa-lock"></i></div>
+                            </div>
+                            <input id="password" type="password"
+                                class="form-control @error('password') is-invalid @enderror" name="password" required
+                                autocomplete="current-password" placeholder="password">
+                        </div>
+                    </div><button id="loginBtn" type="submit" class="btn btn-sm btn-danger mb-2 d-inline">Login</button>
+                </ul>
+            </form>
+        </div>
+    </div>
 </section>
 <section id="app-navbar" class="bg-black">
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-black" role="navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black pl-0 pr-0" role="navigation" >
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav w-100 nav-fill">
                     @foreach ($menus as $menu)
-                        <li
-                            class="nav-item {{ Route::currentRouteName() == $menu['route'] ? 'bg-dark text-white' : 'bg-black' }}">
-                            <a class="nav-link text-uppercase text-warning" href="{{ route($menu['route']) }}"><i
-                                    class="{{ $menu['icon'] }} text-primary"></i>
-                                {{ $menu['text'] }}
-                                <span class="sr-only">(current)</span></a>
-                        </li>
+                    <li
+                        class="nav-item {{ Route::currentRouteName() == $menu['route'] ? 'active' : 'bg-black' }}">
+                        <a class="nav-link text-uppercase text-secondary" href="{{ route($menu['route']) }}"><i
+                                class="{{ $menu['icon'] }} text-primary"></i>
+                            {{ $menu['text'] }}
+                            <span class="sr-only">(current)</span></a>
+                    </li>
                     @endforeach
                     <div class="dropdown language float-right">
                         <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton"
@@ -172,18 +168,21 @@ fa-fw fa-dice-six',
                 <span class="navbar-toggler-icon"></span>
             </button>
         </nav>
-    </div>
-</section>
-<section id="app-marquee" class="bg-danger text-white">
-    <div class="container">
-        <div class="row">
+         <div class="row bg-danger text-white ml-0 mr-0">
+             
             <div class="col-sm-12 col-md-3"><span id="datetime"></span> (GMT+8)</div>
             <div class="col-sm-12 col-md-9">
-                <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+            
+                <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();" >
                     Welcome to
                     www.enrich888.com! Please have fun.</marquee>
             </div>
         </div>
+    </div>
+</section>
+<section id="app-marquee" class="bg-danger text-white">
+    <div class="container">
+       
     </div>
 
 </section>
