@@ -4,6 +4,7 @@ body {
 
 .btn-gold {
     background-color: #e2ba46;
+    font-weight: bolder !important;
 }
 
 img {

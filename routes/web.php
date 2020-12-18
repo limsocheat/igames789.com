@@ -30,7 +30,7 @@ Route::name('page.')->group(function () {
     Route::get('/contact', [PageController::class, 'contact'])->name('contact');
     Route::get('/loyalty', [PageController::class, 'loyalty'])->name('loyalty');
     Route::get('/promotions', [PageController::class, 'promotions'])->name('promotions');
-    // Route::get('/term', [PageController::class, 'index'])->name('terms_conditions');
+    Route::get('/comming_soon', [PageController::class, 'comming_soon'])->name('comming_soon');
 });
 
 Route::name('game.')->group(function () {

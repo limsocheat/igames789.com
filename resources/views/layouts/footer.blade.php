@@ -18,6 +18,18 @@
                     <!-- Grid row -->
                     <div class="row">
 
+                        <div class="col-md-4 text-left">
+                            <img src="{{ asset('images/let-play.jpeg') }}" alt="Let's Play" style="max-height: 120px">
+                        </div>
+
+                        <div class="col-md-4 text-center">
+                            <img src="{{ asset('images/big-win.jpeg') }}" alt="Big Win" style="max-height: 120px">
+                        </div>
+
+                        <div class="col-md-4 text-right">
+                            <img src="{{ asset('images/play-to-win.jpeg') }}" alt="Play to win" style="max-height: 120px">
+                        </div>
+
                         <!-- Grid column -->
                         <div class="col-md-3 mx-auto">
 
@@ -63,7 +75,7 @@
                         <hr class="clearfix w-100 d-md-none">
 
                         <!-- Grid column -->
-                        <div class="col-md-3 mx-auto">
+                        <div class="col-md-3 mx-auto text-center">
 
                             <!-- Links -->
                             <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: red">IGAMES789</h5>
@@ -85,7 +97,7 @@
                         <hr class="clearfix w-100 d-md-none">
 
                         <!-- Grid column -->
-                        <div class="col-md-3 mx-auto">
+                        <div class="col-md-3 mx-auto text-center">
 
                             <!-- Links -->
                             <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: red">ACCOUNT</h5>
@@ -106,7 +118,7 @@
                         <hr class="clearfix w-100 d-md-none">
 
                         <!-- Grid column -->
-                        <div class="col-md-3 mx-auto">
+                        <div class="col-md-3 mx-auto text-right">
 
                             <!-- Links -->
                             <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: red">GAME RULES</h5>

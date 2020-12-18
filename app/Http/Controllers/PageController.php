@@ -71,4 +71,9 @@ class PageController extends Controller
     {
         return view('pages.contact');
     }
+
+    public function comming_soon()
+    {
+        return view('pages.comming_soon');
+    }
 }
