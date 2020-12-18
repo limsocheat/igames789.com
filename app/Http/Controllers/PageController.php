@@ -41,8 +41,34 @@ class PageController extends Controller
     {
         return view('pages.loyalty');
     }
+
     public function promotions()
     {
         return view('pages.promotions');
+    }
+
+    public function terms_conditions()
+    {
+        return view('pages.terms_conditions');
+    }
+
+    public function privacy_policy()
+    {
+        return view('pages.privacy_policy');
+    }
+
+    public function responsible_gambling()
+    {
+        return view('pages.responsible_gambling');
+    }
+
+    public function about()
+    {
+        return view('pages.about');
+    }
+
+    public function contact()
+    {
+        return view('pages.contact');
     }
 }

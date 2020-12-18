@@ -1,6 +1,11 @@
 body {
     background-color: #1e1e1e;
 }
+
+.btn-gold {
+    background-color: #e2ba46;
+}
+
 img {
     max-width: 100% !important;
 }

@@ -22,37 +22,37 @@
                         <div class="col-md-3 mx-auto">
 
                             <!-- Links -->
-                            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">CONTACT</h5>
+                            <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: red">CONTACT</h5>
 
                             <ul class="list-unstyled">
                                 <li>
                                     <i class="fa fa-fw fa-lg fa-phone text-danger"></i>
-                                    <a href="tel:+840339466132" class="btn btn-sm btn-primary mb-2" style="width: 60%;">
+                                    <a href="tel:+840339466132" class="btn btn-sm btn-gold mb-2" style="width: 60%;">
                                         +84 033 946 6132</a>
                                 </li>
                                 <li>
                                     <i class="fa fa-fw fa-lg fa-envelope text-info"></i>
-                                    <a href="mail:support@enrich888.com" class="btn btn-sm btn-primary mb-2" style="width: 60%;">
-                                        support@enrich888.com</a>
+                                    <a href="mail:support@igames789.com" class="btn btn-sm btn-gold mb-2" style="width: 60%;">
+                                        support@igames789.com</a>
                                 </li>
                                 <li>
                                     <i class="fa fa-fw fa-lg fa-globe text-warning"></i>
-                                    <a href="http://www.enrich888.com" class="btn btn-sm btn-primary mb-2" style="width: 60%;">
-                                        www.enrich888.com</a>
+                                    <a href="http://www.igames789.com" class="btn btn-sm btn-gold mb-2" style="width: 60%;">
+                                        www.igames789.com</a>
                                 </li>
                                 <li>
-                                    &nbsp;<i class="fab fa-whatsapp text-success" style="font-size: 1.3333333333em;"></i>&nbsp;
-                                    <a href="http://www.enrich888.com" class="btn btn-sm btn-primary mb-2" style="width: 60%;">
+                                    <i class="fab fa-whatsapp text-success" style="font-size: 1.3333333333em;"></i>
+                                    <a href="http://www.igames789.com" class="btn btn-sm btn-gold mb-2" style="width: 60%;">
                                         +84 033 946 6132</a>
                                 </li>
                                 <li>
-                                    &nbsp;<i class="fab fa-skype text-primary " style="font-size: 1.3333333333em;"></i>&nbsp;
-                                    <a href="http://www.enrich888.com" class="btn btn-sm btn-primary mb-2" style="width: 60%;">
+                                    <i class="fab fa-skype text-primary " style="font-size: 1.3333333333em;"></i>
+                                    <a href="http://www.igames789.com" class="btn btn-sm btn-gold mb-2" style="width: 60%;">
                                         +84 033 946 6132</a>
                                 </li>
                                 <li>
-                                    &nbsp;<i class="fab fa-telegram text-primary" style="font-size: 1.3333333333em;"></i>&nbsp;
-                                    <a href="http://www.enrich888.com" class=" btn btn-sm btn-primary mb-2" style="width: 60%;">
+                                    <i class="fab fa-telegram text-primary" style="font-size: 1.3333333333em;"></i>
+                                    <a href="http://www.igames789.com" class=" btn btn-sm btn-gold mb-2" style="width: 60%;">
                                         +84 033 946 6132</a>
                                 </li>
                             </ul>
@@ -66,16 +66,14 @@
                         <div class="col-md-3 mx-auto">
 
                             <!-- Links -->
-                            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">ENRICH888</h5>
+                            <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: red">IGAMES789</h5>
 
                             <ul class="list-unstyled">
 
                                 @foreach ($casinos as $casino)
                                     <li>
-                                        &nbsp;<i class="fas fa-caret-right text-primary "
-                                            style="font-size: 1.3333333333em;"></i>&nbsp;
-                                        <a href="#!" class="btn btn-sm btn-primary mb-2"
-                                            style="width: 60%;">{{ $casino['text'] }}</a>
+                                        <i class="fas fa-caret-right text-primary " style="font-size: 1.3333333333em;"></i>
+                                        <a href="#!" class="btn btn-sm btn-gold mb-2" style="width: 60%;">{{ $casino['text'] }}</a>
                                     </li>
 
                                 @endforeach
@@ -90,14 +88,13 @@
                         <div class="col-md-3 mx-auto">
 
                             <!-- Links -->
-                            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">ACCOUNT</h5>
+                            <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: red">ACCOUNT</h5>
 
                             <ul class="list-unstyled">
                                 @foreach ($accounts as $account)
                                     <li>
-                                        &nbsp;<i class="fas fa-caret-right text-primary "
-                                            style="font-size: 1.3333333333em;"></i>&nbsp;
-                                        <a href="#!" class=" btn btn-sm btn-primary mb-2"
+                                        <i class="fas fa-caret-right text-primary " style="font-size: 1.3333333333em;"></i>
+                                        <a href="#!" class=" btn btn-sm btn-gold mb-2"
                                             style="width: 60%;">{{ $account['text'] }}</a>
                                     </li>
                                 @endforeach
@@ -112,15 +109,14 @@
                         <div class="col-md-3 mx-auto">
 
                             <!-- Links -->
-                            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">GAME RULES</h5>
+                            <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: red">GAME RULES</h5>
 
                             <ul class="list-unstyled">
                                 @foreach ($games as $game)
                                     <li class="{{ Route::currentRouteName() == $game['route'] ? 'active' : null }}">
-                                        &nbsp;<i class="fas fa-caret-right text-primary "
-                                            style="font-size: 1.3333333333em;"></i>&nbsp;
+                                        <i class="fas fa-caret-right text-primary " style="font-size: 1.3333333333em;"></i>
                                         <a href="{{ route($game['route']) }}"
-                                            class="font-weight-bold btn btn-sm btn-primary mb-2 {{ Route::currentRouteName() == $game['route'] ? 'active' : null }}"
+                                            class="font-weight-bold btn btn-sm btn-gold mb-2 {{ Route::currentRouteName() == $game['route'] ? 'active' : null }}"
                                             style="width: 60%;">{{ $game['text'] }}</a>
                                     </li>
                                 @endforeach
@@ -138,7 +134,7 @@
                 <div class="footer-copyright text-center py-3 text-warning" id="app-copyright"
                     style="border-top: 0.5px solid #666;">
                     <img src="{{ asset('/images/18.png') }}" style="max-height: 30px;" /><br>© 2019 Copyright:
-                    <a href="http://enrich888.com" class="text-warning">www.enrich888.com</a>
+                    <a href="http://igames789.com" class="text-warning">www.igames789.com</a>
 
                 </div>
                 <!-- Copyright -->

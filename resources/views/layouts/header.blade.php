@@ -47,8 +47,7 @@ fa-fw fa-dice-six',
             Conditions</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link px-2 py-1 text-white text-uppercase small"
-                    href="{{ route('page.privacy_policy') }}">Privacy
+                <a class="nav-link px-2 py-1 text-white text-uppercase small" href="{{ route('page.privacy_policy') }}">Privacy
                     Policy</a>
             </li>
             <li class="nav-item">
@@ -56,8 +55,7 @@ fa-fw fa-dice-six',
                     Rules</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link px-2 py-1 text-white text-uppercase small"
-                    href="{{ route('page.responsible_gambling') }}">Resposible
+                <a class="nav-link px-2 py-1 text-white text-uppercase small" href="{{ route('page.responsible_gambling') }}">Resposible
                     Gaming</a>
             </li>
             <li class="nav-item">
@@ -65,8 +63,7 @@ fa-fw fa-dice-six',
                     Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link px-2 py-1 text-white text-uppercase small"
-                    href="{{ route('page.contact') }}">Contact</a>
+                <a class="nav-link px-2 py-1 text-white text-uppercase small" href="{{ route('page.contact') }}">Contact</a>
             </li>
             </ul>
         </div> --}}
@@ -93,8 +90,7 @@ fa-fw fa-dice-six',
                 @csrf
                 <ul class="nav text-white float-right" id="app-top-navbar">
                     <a href="{{ route('register') }}">
-                        <button type="button" class="btn btn-sm btn-danger mb-2 d-inline"
-                            style="height: 90%">Register</button>
+                        <button type="button" class="btn btn-sm btn-danger mb-2 d-inline" style="height: 90%">Register</button>
                     </a>
 
                     <div class="text-right d-inline mx-2">
@@ -104,9 +100,7 @@ fa-fw fa-dice-six',
                             <div class="input-group-prepend">
                                 <div class="input-group-text"><i class="fa fa-fw fa-user-lock"></i></div>
                             </div>
-                            <input id="name" type="email" class="form-control @error('name') is-invalid @enderror"
-                                name="email" value="{{ old('email') }}" required autocomplete="email" autofocus
-                                placeholder="Email">
+                            <input id="name" type="email" class="form-control @error('name') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="Email">
                         </div>
 
                         <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
@@ -114,9 +108,7 @@ fa-fw fa-dice-six',
                             <div class="input-group-prepend">
                                 <div class="input-group-text"><i class="fa fa-fw fa-lock"></i></div>
                             </div>
-                            <input id="password" type="password"
-                                class="form-control @error('password') is-invalid @enderror" name="password" required
-                                autocomplete="current-password" placeholder="password">
+                            <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" placeholder="password">
                         </div>
                     </div><button id="loginBtn" type="submit" class="btn btn-sm btn-danger mb-2 d-inline">Login</button>
                 </ul>
@@ -126,21 +118,18 @@ fa-fw fa-dice-six',
 </section>
 <section id="app-navbar" class="bg-black">
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-black pl-0 pr-0" role="navigation" >
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black pl-0 pr-0" role="navigation">
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav w-100 nav-fill">
                     @foreach ($menus as $menu)
-                    <li
-                        class="nav-item {{ Route::currentRouteName() == $menu['route'] ? 'active' : 'bg-black' }}">
-                        <a class="nav-link text-uppercase text-secondary" href="{{ route($menu['route']) }}"><i
-                                class="{{ $menu['icon'] }} text-primary"></i>
+                    <li class="nav-item {{ Route::currentRouteName() == $menu['route'] ? 'active' : 'bg-black' }}">
+                        <a class="nav-link text-uppercase text-secondary" href="{{ route($menu['route']) }}"><i class="{{ $menu['icon'] }} text-primary"></i>
                             {{ $menu['text'] }}
                             <span class="sr-only">(current)</span></a>
                     </li>
                     @endforeach
                     <div class="dropdown language float-right">
-                        <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <span class="flag-icon flag-icon-us"></span> English
                         </button>
                         <div class="dropdown-menu dropdown-menu-right text-left language">
@@ -163,26 +152,25 @@ fa-fw fa-dice-six',
                     </div>
                 </ul>
             </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </nav>
-         <div class="row bg-danger text-white ml-0 mr-0">
-             
+        <div class="row bg-danger text-white ml-0 mr-0">
+
             <div class="col-sm-12 col-md-3"><span id="datetime"></span> (GMT+8)</div>
             <div class="col-sm-12 col-md-9">
-            
-                <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();" >
+
+                <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
                     Welcome to
-                    www.enrich888.com! Please have fun.</marquee>
+                    www.igames789.com! Please have fun.</marquee>
             </div>
         </div>
     </div>
 </section>
 <section id="app-marquee" class="bg-danger text-white">
     <div class="container">
-       
+
     </div>
 
 </section>
@@ -190,5 +178,4 @@ fa-fw fa-dice-six',
 <script>
     var dt = new Date();
     document.getElementById("datetime").innerHTML = dt.toLocaleString();
-
 </script>
