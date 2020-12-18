@@ -22,9 +22,9 @@ class PageController extends Controller
             [
                 'image_url'     => asset('images/slider/4.jpg'),
             ],
-            [
-                'image_url'     => asset('images/slider/5.jpg'),
-            ],
+            // [
+            //     'image_url'     => asset('images/slider/5.jpg'),
+            // ],
         ];
 
         $data  = [

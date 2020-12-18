@@ -76,6 +76,22 @@
                         </div> --}}
             </div>
         </div>
+        <div class="col-xl-4 mt-3">
+            <div class="fature_game">
+                <div class="background_game" align="center"><img src="{{ asset('/images/card_4.jpg') }}"
+                        class="btn-zoom"></div>
+                {{-- <div class="title_game"><img src="images/title_dreamgame.png"></div>
+                                <div class="logo_casino"><img src="images/logo_casino_dr.png"></div> --}}
+                {{-- <div class="nameofgame" style="position:relative;">
+                                    <div class="animate three">
+                                        <span>B</span><span>a</span><span>c</span><span>c</span><span>a</span><span>r</span><span>a</span><span>t</span><span>e</span>
+                                    </div>
+                                    <a href="#">
+                                        <div class="play_now">Play Now</div>
+                                    </a>
+                                </div> --}}
+            </div>
+        </div>
     </div>
 
 
