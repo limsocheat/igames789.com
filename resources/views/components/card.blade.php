@@ -122,7 +122,7 @@
                             <div class="hover-blur">
                                 <a href="index.php" class="box-home1">
                                     <div class="box-img casbox"><img
-                                            src="https://design.khmergaming.com/template70/images/home/promo.png"  ></div>
+                                            src="https://design.khmergaming.com/template70/images/home/promo.png"></div>
                                     <span class="text-white">PROMOTION</span>
                                 </a>
                             </div>

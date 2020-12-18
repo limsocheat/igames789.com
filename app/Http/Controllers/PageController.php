@@ -34,10 +34,12 @@ class PageController extends Controller
         return view('pages.index')->with($data);
     }
 
-    public function loyalty(){
+    public function loyalty()
+    {
         return view('pages.loyalty');
     }
-    public function promotions(){
+    public function promotions()
+    {
         return view('pages.promotions');
     }
 }

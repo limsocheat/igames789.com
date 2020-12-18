@@ -198,3 +198,16 @@ img.btn-zoom {
      color: #FFFF !important;
      background-color:#343a40 !important;
 }
+/* custom css for card*/
+.animate span:nth-of-type(2) {
+    animation-delay: .05s;
+}
+.three span {
+    font-weight: 900;
+}
+.three span {
+    color: #ffffff;
+    opacity: 0;
+    transform: translate(-300px, 0) scale(0);
+    animation: sideSlide 5s infinite;
+}
