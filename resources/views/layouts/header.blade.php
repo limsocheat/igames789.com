@@ -26,9 +26,6 @@ fa-fw fa-dice-six',
 
 @endphp
 <section id="app-top-header" style="background-color: #1e1e1e">
-    {{-- style="background-image: url({{ asset('/img/background.png') }});
-    background-repeat: no-repeat;
-    background-size: cover;"> --}}
     <div class="container">
         <div class="row py-2">
             <div class="col-sm-12 col-md-2 align-middle">
@@ -37,41 +34,6 @@ fa-fw fa-dice-six',
                 </a>
                 <img src="/images/qrcode.png" alt="Logo" style="max-height: 68px; margin: 3px 0" />
             </div>
-            {{-- <div class="col-sm-12 col-md-4 text-right pt-2 bg-danger"
-                style="height: 67px; border-right: 1px solid #ccc">
-                <ul class="nav justify-content-center text-danger float-right" style="text-align: right;"
-                    id="app-top-navbar">
-                    <li class="nav-item">
-                        <a class="nav-link px-2 py-1 text-white text-uppercase small"
-                            href="{{ route('page.terms_conditions') }}">Terms &
-                            Conditions</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-2 py-1 text-white text-uppercase small"
-                            href="{{ route('page.privacy_policy') }}">Privacy
-                            Policy</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-2 py-1 text-white text-uppercase small"
-                            href="{{ route('game.baccarat') }}">Game
-                            Rules</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-2 py-1 text-white text-uppercase small"
-                            href="{{ route('page.responsible_gambling') }}">Resposible
-                            Gaming</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-2 py-1 text-white text-uppercase small"
-                            href="{{ route('page.about') }}">About
-                            Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-2 py-1 text-white text-uppercase small"
-                            href="{{ route('page.contact') }}">Contact</a>
-                    </li>
-                </ul>
-            </div> --}}
             <div class="col-sm-12 col-md-4">
                 <a class="btn btn-sm btn-gold mb-2" href="{{ route('page.terms_conditions') }}">Terms &
                     Conditions</a>
@@ -90,7 +52,7 @@ fa-fw fa-dice-six',
                 <button type="submit" class="btn btn-sm btn-gold btn-block mb-2">Doposit</button>
                 <button type="submit" class="btn btn-sm btn-gold btn-block mb-2 ">Withdraw</button>
             </div>
-            <div class="col-sm-12 col-md-4 text-right">
+            <div class="col-sm-12 col-md-4 ">
                 <form id="loginForm" method="POST" action="{{ route('login') }}">
                     @csrf
                     <ul class="nav text-white float-right" id="app-top-navbar">
@@ -116,7 +78,8 @@ fa-fw fa-dice-six',
                             <div class="input-group input-group-sm mb-2 mr-sm-2">
                                 <div class="input-group-prepend" style="background-color: #ccc">
                                     <div class="input-group-text" style="background: #ccc;"><i
-                                            class="fa fa-fw fa-lock"></i></div>
+                                            class="fa fa-fw fa-lock"></i>
+                                    </div>
                                 </div>
                                 <input id="password" type="password"
                                     class="form-control @error('password') is-invalid @enderror" name="password"
@@ -136,12 +99,12 @@ fa-fw fa-dice-six',
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav w-100 nav-fill">
                     @foreach ($menus as $menu)
-                        <li class="nav-item {{ Route::currentRouteName() == $menu['route'] ? 'active' : 'bg-black' }}">
-                            <a class="nav-link text-uppercase text-secondary" href="{{ route($menu['route']) }}"><i
-                                    class="{{ $menu['icon'] }} text-primary"></i>
-                                {{ $menu['text'] }}
-                                <span class="sr-only">(current)</span></a>
-                        </li>
+                    <li class="nav-item {{ Route::currentRouteName() == $menu['route'] ? 'active' : 'bg-black' }}">
+                        <a class="nav-link text-uppercase text-secondary" href="{{ route($menu['route']) }}"><i
+                                class="{{ $menu['icon'] }} text-primary"></i>
+                            {{ $menu['text'] }}
+                            <span class="sr-only">(current)</span></a>
+                    </li>
                     @endforeach
                     <div class="dropdown language float-right">
                         <button class="btn btn-gold dropdown-toggle" type="button" id="dropdownMenuButton"

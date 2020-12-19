@@ -8,9 +8,8 @@
                         <span></span>
                         <span></span>
                         <span></span>
-                        <div class="banner-casino text-center"><img
-                                src="https://design.khmergaming.com/template70/images/home/sport.png"
-                                style="max-height: 468px;">
+                        <div class="banner-casino text-center"><img src="{{asset('/images/sport.png')}}"
+                                style="height: 468px">
                         </div>
                         <div class="text-warning text-center" style="font-size: 20px;">SPORTSBOOK</div>
 
@@ -24,8 +23,7 @@
                                 <span></span>
                                 <span></span>
                                 <span></span>
-                                <div class="banner-casino text-center"><img
-                                        src="https://design.khmergaming.com/template70/images/home/casino.png">
+                                <div class="banner-casino text-center"><img src="{{asset('/images/casino.png')}}">
                                 </div>
 
                                 <div class="text-warning text-center" style="font-size: 20px;">CASINO</div>
@@ -37,10 +35,9 @@
                                 <span></span>
                                 <span></span>
                                 <span></span>
-                                <div class="banner-casino text-center"><img
-                                        src="https://design.khmergaming.com/template70/images/home/slots.png">
+                                <div class="banner-casino text-center"><img src="{{asset('/images/cockfight.png')}}">
                                 </div>
-                                <div class="text-warning text-center" style="font-size: 20px;">SLOTS</div>
+                                <div class="text-warning text-center" style="font-size: 20px;">COCKFIGHT</div>
                             </div>
                         </div>
                         <div class="col-6 mb-4 pr-3">
@@ -49,8 +46,7 @@
                                 <span></span>
                                 <span></span>
                                 <span></span>
-                                <div class="banner-casino text-center"><img
-                                        src="https://design.khmergaming.com/template70/images/home/lottery.png">
+                                <div class="banner-casino text-center"><img src="{{asset('/images/lottery.png')}}">
                                 </div>
 
                                 <div class="text-warning text-center" style="font-size: 20px;">LOTTERY</div>
@@ -62,10 +58,10 @@
                                 <span></span>
                                 <span></span>
                                 <span></span>
-                                <div class="banner-casino text-center"><img src="{{ asset('images/3cardpoker.jpg') }}"
-                                        style="height: 200px;">
+                                <div class="banner-casino text-center"><img
+                                        src="https://design.khmergaming.com/template70/images/home/number.png">
                                 </div>
-                                <div class="text-warning text-center" style="font-size: 20px;">3 CARDS POKER</div>
+                                <div class="text-warning text-center" style="font-size: 20px;">NUMBER</div>
 
                             </div>
                         </div>
@@ -79,10 +75,11 @@
                         <span></span>
                         <span></span>
                         <span></span>
-                        <div class="banner-casino text-center"><img src="{{ asset('images/number.png') }}">
+                        <div class="banner-casino text-center"><img
+                                src="https://design.khmergaming.com/template70/images/home/slots.png">
                         </div>
 
-                        <div class="text-warning text-center" style="font-size: 20px;">Numbers</div>
+                        <div class="text-warning text-center" style="font-size: 20px;">SLOTS</div>
                     </div>
                 </div>
                 <div class="col-3 mb-4 pr-3">
@@ -91,10 +88,10 @@
                         <span></span>
                         <span></span>
                         <span></span>
-                        <div class="banner-casino text-center"><img src="{{ asset('images/roulette_1.jpg') }}"
-                                style="height: 200px;">
+                        <div class="banner-casino text-center"><img
+                                src="https://design.khmergaming.com/template70/images/home/poker.png">
                         </div>
-                        <div class="text-warning text-center" style="font-size: 20px;">Roulette</div>
+                        <div class="text-warning text-center" style="font-size: 20px;">POKER</div>
 
                     </div>
                 </div>
