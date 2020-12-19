@@ -19,15 +19,15 @@
         <!-- Grid row -->
         <div class="row">
 
-            <div class="col-md-4 text-left">
+            <div class="col-md-4 col-sm-12 text-md-left text-sm-center mb-2">
                 <img src="{{ asset('images/let-play.jpeg') }}" alt="Let's Play" style="max-height: 120px">
             </div>
 
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 col-sm-12 text-center mb-2">
                 <img src="{{ asset('images/big-win.jpeg') }}" alt="Big Win" style="max-height: 120px">
             </div>
 
-            <div class="col-md-4 text-right">
+            <div class="col-md-4 col-sm-12 text-md-right text-sm-center mb-2">
                 <img src="{{ asset('images/play-to-win.jpeg') }}" alt="Play to win" style="max-height: 120px">
             </div>
 
@@ -123,7 +123,7 @@
             <hr class="clearfix w-100 d-md-none">
 
             <!-- Grid column -->
-            <div class="col-md-3 mx-auto text-right">
+            <div class="col-md-3 mx-auto text-md-right">
 
                 <!-- Links -->
                 <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: red">GAME RULES</h5>

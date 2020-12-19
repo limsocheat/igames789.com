@@ -11,9 +11,9 @@ img {
     max-width: 100% !important;
 }
 
-.container {
+/* .container {
     min-width: 1240px !important;
-}
+} */
 
 b-content {
     padding-bottom: 25px;
@@ -32,7 +32,7 @@ b-content {
     justify-content: space-between;
     align-items: center;
     align-content: stretch;
-    height: 210px;
+    /* height: 210px; */
 }
 
 .help-box ul li a {
@@ -59,9 +59,9 @@ b-content {
     font-size: 16px;
 }
 
-.help-ico {
+/* .help-ico {
     margin-right: 15px;
-}
+} */
 
 .cm-sn {
     border: 3px solid #cd4a98;

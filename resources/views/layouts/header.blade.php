@@ -28,7 +28,7 @@ fa-fw fa-dice-six',
 <section id="app-top-header" style="background-color: #1e1e1e">
     <div class="container">
         <div class="row py-2">
-            <div class="col-sm-12 col-md-2 align-middle">
+            <div class="col-sm-12 col-md-2 align-middle text-sm-center">
                 <a href="{{ route('home') }}" style="text-decoration: none;">
                     <img src="/images/logo.png" alt="Logo" style="max-height: 74px" />
                 </a>
@@ -52,7 +52,7 @@ fa-fw fa-dice-six',
                 <button type="submit" class="btn btn-sm btn-gold btn-block mb-2">Doposit</button>
                 <button type="submit" class="btn btn-sm btn-gold btn-block mb-2 ">Withdraw</button>
             </div>
-            <div class="col-sm-12 col-md-4  ">
+            <div class="col-sm-12 col-md-4 ">
                 <form id="loginForm" method="POST" action="{{ route('login') }}">
                     @csrf
                     <ul class="nav text-white float-md-right" id="app-top-navbar">
@@ -106,27 +106,34 @@ fa-fw fa-dice-six',
                             <span class="sr-only">(current)</span></a>
                     </li>
                     @endforeach
-                    <div class="dropdown language float-right">
+                    <div class="dropdown language float-right ">
                         <button class="btn btn-gold dropdown-toggle" type="button" id="dropdownMenuButton"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <span class="flag-icon flag-icon-us"></span> English
                         </button>
                         <div class="dropdown-menu dropdown-menu-right text-left language">
                             <a class="dropdown-item" href="#fr"><span class="flag-icon flag-icon-us"> </span>
-                                English</a>
+                                <img src="https://cdn.iconscout.com/icon/free/png-512/united-kingdom-flag-country-nation-union-empire-33115.png"
+                                    style="height: 20px;width:30px;" class="mr-2" /> English</a>
                             <a class="dropdown-item" href="#ru"><span class="flag-icon flag-icon-cn">
                                 </span>
-                                Chinese</a>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/800px-Flag_of_the_People%27s_Republic_of_China.svg.png"
+                                    style="height: 20px;width:30px;" class="mr-2" />Chinese</a>
                             <a class="dropdown-item" href="#it"><span class="flag-icon flag-icon-jp"> </span>
-                                Japanese</a>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUtEzsLWNT2hV0TgvR8-itb_tdld9OFzr9Gw&usqp=CAU"
+                                    style="height: 20px;width:30px;" class="mr-2" />Japanese</a>
                             <a class="dropdown-item" href="#ru"><span class="flag-icon flag-icon-ms"> </span>
-                                Malay</a>
+                                <img src="https://p7.hiclipart.com/preview/911/49/246/flag-of-malaysia-flag-of-syria-flag-of-thailand-flag.jpg"
+                                    style="height: 20px;width:30px;" class="mr-2" /> Malay</a>
                             <a class="dropdown-item" href="#ru"><span class="flag-icon flag-icon-vn"> </span>
-                                Vietnamese</a>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1200px-Flag_of_Vietnam.svg.png"
+                                    style="height: 20px;width:30px;" class="mr-2" />Vietnamese</a>
                             <a class="dropdown-item" href="#ru"><span class="flag-icon flag-icon-th"> </span>
-                                Thai</a>
+                                <img src="https://i.pinimg.com/originals/66/9f/59/669f59b153cbc56e8b6a34867487bec7.png"
+                                    style="height: 20px;width:30px;" class="mr-2" />Thai</a>
                             <a class="dropdown-item" href="#ru"><span class="flag-icon flag-icon-kr"> </span>
-                                Korean</a>
+                                <img src="https://asiasociety.org/sites/default/files/styles/1200w/public/K/korean-flag.jpg"
+                                    style="height: 20px;width:30px;" class="mr-2" />Korean</a>
                         </div>
                     </div>
                 </ul>
