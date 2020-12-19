@@ -76,21 +76,23 @@
             <hr class="clearfix w-100 d-md-none">
 
             <!-- Grid column -->
-            <div class="col-md-3 mx-auto text-center">
+            <div class="col-md-3 mx-auto text-center ">
 
                 <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: red">IGAMES789</h5>
+                <div style="margin-right: 30px;">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: red">IGAMES789</h5>
 
-                <ul class="list-unstyled">
+                    <ul class="list-unstyled">
 
-                    @foreach ($casinos as $casino)
-                    <li>
-                        <i class="fas fa-caret-right text-primary " style="font-size: 1.3333333333em;"></i>
-                        <a href="#!" class="btn btn-sm btn-gold mb-2" style="width: 60%;">{{ $casino['text'] }}</a>
-                    </li>
+                        @foreach ($casinos as $casino)
+                        <li>
+                            <i class="fas fa-caret-right text-primary " style="font-size: 1.3333333333em;"></i>
+                            <a href="#!" class="btn btn-sm btn-gold mb-2" style="width: 60%;">{{ $casino['text'] }}</a>
+                        </li>
 
-                    @endforeach
-                </ul>
+                        @endforeach
+                    </ul>
+                </div>
 
             </div>
             <!-- Grid column -->
@@ -101,16 +103,19 @@
             <div class="col-md-3 mx-auto text-center">
 
                 <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: red">ACCOUNT</h5>
+                <div style="margin-left: 33px;">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: red">ACCOUNT</h5>
 
-                <ul class="list-unstyled">
-                    @foreach ($accounts as $account)
-                    <li>
-                        <i class="fas fa-caret-right text-primary " style="font-size: 1.3333333333em;"></i>
-                        <a href="#!" class=" btn btn-sm btn-gold mb-2" style="width: 60%;">{{ $account['text'] }}</a>
-                    </li>
-                    @endforeach
-                </ul>
+                    <ul class="list-unstyled">
+                        @foreach ($accounts as $account)
+                        <li>
+                            <i class="fas fa-caret-right text-primary " style="font-size: 1.3333333333em;"></i>
+                            <a href="#!" class=" btn btn-sm btn-gold mb-2"
+                                style="width: 60%;">{{ $account['text'] }}</a>
+                        </li>
+                        @endforeach
+                    </ul>
+                </div>
 
             </div>
             <!-- Grid column -->

@@ -48,14 +48,14 @@ fa-fw fa-dice-six',
                 <a class="btn btn-sm btn-gold mb-2" href="{{ route('page.contact') }}">&nbsp;&nbsp;Contact
                     Us&nbsp;</a>
             </div>
-            <div class="col-sm-12 col-md-2">
+            <div class="col-sm-4 col-md-2">
                 <button type="submit" class="btn btn-sm btn-gold btn-block mb-2">Doposit</button>
                 <button type="submit" class="btn btn-sm btn-gold btn-block mb-2 ">Withdraw</button>
             </div>
-            <div class="col-sm-12 col-md-4 ">
+            <div class="col-sm-12 col-md-4  ">
                 <form id="loginForm" method="POST" action="{{ route('login') }}">
                     @csrf
-                    <ul class="nav text-white float-right" id="app-top-navbar">
+                    <ul class="nav text-white float-md-right" id="app-top-navbar">
                         <a href="{{ route('register') }}">
                             <button type="button" class="btn btn-sm btn-gold mb-2 d-inline"
                                 style="height: 90%">Register</button>
