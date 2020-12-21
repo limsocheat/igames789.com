@@ -2,22 +2,9 @@
     <div class="container">
         <div class="home-lobby">
             <div class="row form-row">
-                <div class="col-md-5 col-sm-12 ">
-                    <div class="box-casino">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <div class="banner-casino text-center"><img src="{{asset('/images/sport.png')}}"
-                                style="max-height: 444px;">
-                        </div>
-                        <div class="text-warning text-center" style="font-size: 20px;">SPORTSBOOK</div>
-
-                    </div>
-                </div>
-                <div class="col-md-7 col-sm-12">
+                <div class="col-md-4 col-sm-12">
                     <div class="row form-row">
-                        <div class="col-md-6 col-sm-6">
+                        <div class="col-md-12 col-sm-12">
                             <div class="box-casino">
                                 <span></span>
                                 <span></span>
@@ -29,7 +16,7 @@
                                 <div class="text-warning text-center" style="font-size: 20px;">CASINO</div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-6 ">
+                        <div class="col-md-12 col-sm-12">
                             <div class="box-casino">
                                 <span></span>
                                 <span></span>
@@ -40,7 +27,26 @@
                                 <div class="text-warning text-center" style="font-size: 20px;">SLOTS</div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-6 ">
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 ">
+                    <div class="box-casino">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="banner-casino text-center"><img src="{{asset('/images/sport.png')}}"
+                                style="height: 444px !important;">
+                        </div>
+                        <div class="text-warning text-center" style="font-size: 20px;">SPORTSBOOK</div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="row form-row">
+
+
+                        <div class="col-md-12 col-sm-12">
                             <div class="box-casino">
                                 <span></span>
                                 <span></span>
@@ -52,7 +58,7 @@
                                 <div class="text-warning text-center" style="font-size: 20px;">LOTTERY</div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-12 ">
+                        <div class="col-md-12 col-sm-12">
                             <div class="box-casino">
                                 <span></span>
                                 <span></span>
@@ -78,7 +84,7 @@
                         <div class="banner-casino text-center"><img src="{{ asset('images/number.png') }}">
                         </div>
 
-                        <div class="text-warning text-center" style="font-size: 20px;">Numbers</div>
+                        <div class="text-warning text-center" style="font-size: 20px;">NUMBERS</div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
@@ -90,7 +96,7 @@
                         <div class="banner-casino text-center"><img src="{{ asset('images/roulette_1.jpg') }}"
                                 style="height: 200px;">
                         </div>
-                        <div class="text-warning text-center" style="font-size: 20px;">Roulette</div>
+                        <div class="text-warning text-center" style="font-size: 20px;">ROULETTE</div>
 
                     </div>
                 </div>
