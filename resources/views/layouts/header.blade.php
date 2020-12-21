@@ -28,13 +28,13 @@ fa-fw fa-dice-six',
 <section id="app-top-header" style="background-color: #1e1e1e">
     <div class="container">
         <div class="row py-2">
-            <div class="col-sm-12 col-md-2 align-middle text-sm-center">
+            <div class="col-md-2 col-sm-12 align-middle">
                 <a href="{{ route('home') }}" style="text-decoration: none;">
                     <img src="/images/logo.png" alt="Logo" style="max-height: 74px" />
                 </a>
                 <img src="/images/qrcode.png" alt="Logo" style="max-height: 68px; margin: 3px 0" />
             </div>
-            <div class="col-sm-12 col-md-4">
+            <div class="col-md-4 col-sm-12">
                 <a class="btn btn-sm btn-gold mb-2" href="{{ route('page.terms_conditions') }}">Terms &
                     Conditions</a>
                 <a class="btn btn-sm btn-gold mb-2" href="{{ route('page.privacy_policy') }}">Privacy
@@ -48,11 +48,12 @@ fa-fw fa-dice-six',
                 <a class="btn btn-sm btn-gold mb-2" href="{{ route('page.contact') }}">&nbsp;&nbsp;Contact
                     Us&nbsp;</a>
             </div>
-            <div class="col-sm-4 col-md-2">
-                <button type="submit" class="btn btn-sm btn-gold btn-block mb-2">Doposit</button>
-                <button type="submit" class="btn btn-sm btn-gold btn-block mb-2 ">Withdraw</button>
+            <div class="col-md-2 col-sm-4">
+
+                <button type="submit" class="btn btn-sm btn-gold btn-block mb-2" style="width: 92%">Doposit</button>
+                <button type="submit" class="btn btn-sm btn-gold btn-block mb-2" style="width: 92%">Withdraw</button>
             </div>
-            <div class="col-sm-12 col-md-4 ">
+            <div class="col-md-4 col-sm-12 ">
                 <form id="loginForm" method="POST" action="{{ route('login') }}">
                     @csrf
                     <ul class="nav text-white float-md-right" id="app-top-navbar">
@@ -106,7 +107,7 @@ fa-fw fa-dice-six',
                             <span class="sr-only">(current)</span></a>
                     </li>
                     @endforeach
-                    <div class="dropdown language float-right ">
+                    <div class="dropdown language float-right text-center">
                         <button class="btn btn-gold dropdown-toggle" type="button" id="dropdownMenuButton"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <span class="flag-icon flag-icon-us"></span> English
@@ -138,7 +139,7 @@ fa-fw fa-dice-six',
                     </div>
                 </ul>
             </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            <button class="navbar-toggler mt-2" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
