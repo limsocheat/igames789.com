@@ -11,7 +11,7 @@ class PageController extends Controller
 
         $sliders    = [
             [
-                'image_url'     => asset('images/slider/1.jpg'),
+                'image_url'     => asset('images/slider/1.png'),
             ],
             [
                 'image_url'     => asset('images/slider/2.jpg'),

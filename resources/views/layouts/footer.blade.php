@@ -40,32 +40,38 @@
                 <ul class="list-unstyled">
                     <li>
                         <i class="fa fa-fw fa-lg fa-phone text-danger"></i>
-                        <a href="tel:+840339466132" class="btn btn-sm btn-gold mb-2" style="width: 60%;">
+                        <a href="tel:+840339466132" class="btn btn-sm btn-gold mb-2"
+                            style="width: 153px; max-width:100%;">
                             +84 033 946 6132</a>
                     </li>
                     <li>
                         <i class="fa fa-fw fa-lg fa-envelope text-info"></i>
-                        <a href="mail:support@igames789.com" class="btn btn-sm btn-gold mb-2" style="width: 60%;">
+                        <a href="mail:support@igames789.com" class="btn btn-sm btn-gold mb-2"
+                            style="width: 153px; max-width:100%;">
                             support@igames789.com</a>
                     </li>
                     <li>
                         <i class="fa fa-fw fa-lg fa-globe text-warning"></i>
-                        <a href="http://www.igames789.com" class="btn btn-sm btn-gold mb-2" style="width: 60%;">
+                        <a href="http://www.igames789.com" class="btn btn-sm btn-gold mb-2"
+                            style="width: 153px; max-width:100%;">
                             www.igames789.com</a>
                     </li>
                     <li>
                         <i class="fab fa-whatsapp text-success" style="font-size: 1.3333333333em;"></i>
-                        <a href="http://www.igames789.com" class="btn btn-sm btn-gold mb-2" style="width: 60%;">
+                        <a href="http://www.igames789.com" class="btn btn-sm btn-gold mb-2"
+                            style="width: 153px; max-width:100%;">
                             +84 033 946 6132</a>
                     </li>
                     <li>
                         <i class="fab fa-skype text-primary " style="font-size: 1.3333333333em;"></i>
-                        <a href="http://www.igames789.com" class="btn btn-sm btn-gold mb-2" style="width: 60%;">
+                        <a href="http://www.igames789.com" class="btn btn-sm btn-gold mb-2"
+                            style="width: 153px; max-width:100%;">
                             +84 033 946 6132</a>
                     </li>
                     <li>
                         <i class="fab fa-telegram text-primary" style="font-size: 1.3333333333em;"></i>
-                        <a href="http://www.igames789.com" class=" btn btn-sm btn-gold mb-2" style="width: 60%;">
+                        <a href="http://www.igames789.com" class=" btn btn-sm btn-gold mb-2"
+                            style="width: 153px; max-width:100%;">
                             +84 033 946 6132</a>
                     </li>
                 </ul>
@@ -76,10 +82,10 @@
             <hr class="clearfix w-100 d-md-none">
 
             <!-- Grid column -->
-            <div class="col-md-3 mx-auto text-center ">
+            <div class="col-md-3 mx-auto text-center">
 
                 <!-- Links -->
-                <div style="margin-right: 30px;">
+                <div style="margin-right:33px;" class="igames789">
                     <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: red">IGAMES789</h5>
 
                     <ul class="list-unstyled">
@@ -87,7 +93,8 @@
                         @foreach ($casinos as $casino)
                         <li>
                             <i class="fas fa-caret-right text-primary " style="font-size: 1.3333333333em;"></i>
-                            <a href="#!" class="btn btn-sm btn-gold mb-2" style="width: 60%;">{{ $casino['text'] }}</a>
+                            <a href="#!" class="btn btn-sm btn-gold mb-2"
+                                style="width: 153px; max-width:100%; max-width:100%;">{{ $casino['text'] }}</a>
                         </li>
 
                         @endforeach
@@ -100,10 +107,10 @@
             <hr class="clearfix w-100 d-md-none">
 
             <!-- Grid column -->
-            <div class="col-md-3 mx-auto text-center">
+            <div class="col-md-3 mx-auto text-center ">
 
                 <!-- Links -->
-                <div style="margin-left: 33px;">
+                <div style="margin-left:34px;" class="account">
                     <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color: red">ACCOUNT</h5>
 
                     <ul class="list-unstyled">
@@ -111,7 +118,7 @@
                         <li>
                             <i class="fas fa-caret-right text-primary " style="font-size: 1.3333333333em;"></i>
                             <a href="#!" class=" btn btn-sm btn-gold mb-2"
-                                style="width: 60%;">{{ $account['text'] }}</a>
+                                style="width: 153px; max-width:100%;">{{ $account['text'] }}</a>
                         </li>
                         @endforeach
                     </ul>
@@ -134,7 +141,7 @@
                         <i class="fas fa-caret-right text-primary " style="font-size: 1.3333333333em;"></i>
                         <a href="{{ route($game['route']) }}"
                             class="font-weight-bold btn btn-sm btn-gold mb-2 {{ Route::currentRouteName() == $game['route'] ? 'active' : null }}"
-                            style="width: 60%;">{{ $game['text'] }}</a>
+                            style="width: 153px; max-width:100%;">{{ $game['text'] }}</a>
                     </li>
                     @endforeach
                 </ul>
