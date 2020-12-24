@@ -20,15 +20,15 @@
         <div class="row">
 
             <div class="col-md-4 col-sm-12 text-md-left text-sm-center mb-2">
-                <img src="{{ asset('images/let-play.jpeg') }}" alt="Let's Play" style="max-height: 120px">
+                <img src="{{ asset('images/let-play.jpg') }}" alt="Let's Play" style="max-height: 120px">
             </div>
 
             <div class="col-md-4 col-sm-12 text-center mb-2">
-                <img src="{{ asset('images/big-win.jpeg') }}" alt="Big Win" style="max-height: 120px">
+                <img src="{{ asset('images/big-win.jpg') }}" alt="Big Win" style="max-height: 120px">
             </div>
 
             <div class="col-md-4 col-sm-12 text-md-right text-sm-center mb-2">
-                <img src="{{ asset('images/play-to-win.jpeg') }}" alt="Play to win" style="max-height: 120px">
+                <img src="{{ asset('images/play-to-win.jpg') }}" alt="Play to win" style="max-height: 120px">
             </div>
 
             <!-- Grid column -->
