@@ -29,34 +29,39 @@ fa-fw fa-dice-six',
     <div class="container">
         <div class="row py-2">
             <div class="col-md-2 col-sm-12 align-middle">
+
                 <a href="{{ route('home') }}" style="text-decoration: none;">
                     <img src="/images/logo.png" alt="Logo" style="max-height: 74px" />
                 </a>
                 <img src="/images/qrcode.png" alt="Logo" style="max-height: 68px; margin: 3px 0" />
             </div>
             <div class="col-md-4 col-sm-12">
-                <a class="btn btn-sm btn-gold mb-2" href="{{ route('page.terms_conditions') }}">Terms &
-                    Conditions</a>
-                <a class="btn btn-sm btn-gold mb-2" href="{{ route('page.privacy_policy') }}">Privacy
-                    Policy</a>
-                <a class="btn btn-sm btn-gold mb-2" href="{{ route('game.baccarat') }}">Game
-                    Rules</a>
-                <a class="btn btn-sm btn-gold mb-2" href="{{ route('page.responsible_gambling') }}">Resposible
-                    Gaming</a>
-                <a class="btn btn-sm btn-gold mb-2" href="{{ route('page.about') }}">&nbsp;&nbsp;&nbsp;About
-                    Us &nbsp;&nbsp;&nbsp;</a>
-                <a class="btn btn-sm btn-gold mb-2" href="{{ route('page.contact') }}">&nbsp;&nbsp;Contact
-                    Us&nbsp;</a>
+                <div class="btn-group btn-block" role="group" aria-label="Basic example">
+                    <a class="btn btn-sm btn-gold" href="{{ route('page.terms_conditions') }}">Terms &
+                        Conditions</a>
+                    <a class="btn btn-sm btn-gold" href="{{ route('page.privacy_policy') }}">Privacy
+                        Policy</a>
+                    <a class="btn btn-sm btn-gold" href="{{ route('game.baccarat') }}">Game
+                        Rules</a>
+                </div>
+                <div class="btn-group btn-block" role="group" aria-label="Basic example">
+                    <a class="btn btn-sm btn-gold" href="{{ route('page.responsible_gambling') }}">Resposible
+                        Gaming</a>
+                    <a class="btn btn-sm btn-gold" href="{{ route('page.about') }}">&nbsp;&nbsp;&nbsp;About
+                        Us &nbsp;&nbsp;&nbsp;</a>
+                    <a class="btn btn-sm btn-gold" href="{{ route('page.contact') }}">&nbsp;&nbsp;Contact
+                        Us&nbsp;</a>
+                </div>
             </div>
             <div class="col-md-2 col-sm-4">
 
-                <button type="submit" class="btn btn-sm btn-gold btn-block mb-2" style="width: 92%">Doposit</button>
-                <button type="submit" class="btn btn-sm btn-gold btn-block mb-2" style="width: 92%">Withdraw</button>
+                <button type="submit" class="btn btn-sm btn-gold btn-block mb-2">Doposit</button>
+                <button type="submit" class="btn btn-sm btn-gold btn-block mb-2">Withdraw</button>
             </div>
             <div class="col-md-4 col-sm-12 ">
                 <form id="loginForm" method="POST" action="{{ route('login') }}">
                     @csrf
-                    <ul class="nav text-white float-md-right" id="app-top-navbar">
+                    <ul class="btn-group nav text-white float-md-right" id="app-top-navbar">
                         <a href="{{ route('register') }}">
                             <button type="button" class="btn btn-sm btn-gold mb-2 d-inline"
                                 style="height: 90%">Register</button>
@@ -87,8 +92,8 @@ fa-fw fa-dice-six',
                                     required autocomplete="current-password" placeholder="password"
                                     style="background: #ccc;">
                             </div>
-                        </div><button id="loginBtn" type="submit"
-                            class="btn btn-sm btn-gold mb-2 d-inline">Login</button>
+                        </div>
+                        <button id="loginBtn" type="submit" class="btn btn-sm btn-gold mb-2 d-inline">Login</button>
                     </ul>
                 </form>
             </div>

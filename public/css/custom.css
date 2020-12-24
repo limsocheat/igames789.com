@@ -367,7 +367,9 @@ img.btn-zoom {
 .igames789{
     margin-left: 33px;
 }
-
+.header_top{
+    background-color: red;
+}
  }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -379,6 +381,11 @@ img.btn-zoom {
 .igames789{
     margin-left: 33px;
 }
+
+.header_to{
+    background-color: red;
+}
+
  }
 
 /* Medium devices (tablets, 768px and up) */
