@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Benner;
+use App\Models\PromotionSlide;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -32,6 +34,10 @@ class PageController extends Controller
 
         $data  = [
             'sliders'   => $sliders,
+            'ben1' => Benner::where('location', 'A')->get(),
+            'ben2' => Benner::where('location', 'B')->get(),
+            'promotion1' => PromotionSlide::where('location', 'A')->get(),
+            'promotion2' => PromotionSlide::where('location', 'B')->get(),
         ];
 
         return view('pages.index')->with($data);
