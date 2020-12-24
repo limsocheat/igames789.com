@@ -28,14 +28,14 @@ fa-fw fa-dice-six',
 <section id="app-top-header" style="background-color: #1e1e1e">
     <div class="container">
         <div class="row py-2">
-            <div class="col-md-2 col-sm-12 align-middle">
+            <div class="col-md-2 col-sm-12 align-middle mt-2">
 
                 <a href="{{ route('home') }}" style="text-decoration: none;">
                     <img src="/images/logo.png" alt="Logo" style="max-height: 74px" />
                 </a>
                 <img src="/images/qrcode.png" alt="Logo" style="max-height: 68px; margin: 3px 0" />
             </div>
-            <div class="col-md-4 col-sm-12">
+            <div class="col-md-4 col-sm-12 mt-2">
                 <div class="btn-group btn-block" role="group" aria-label="Basic example">
                     <a class="btn btn-sm btn-gold" href="{{ route('page.terms_conditions') }}">Terms &
                         Conditions</a>
@@ -53,12 +53,12 @@ fa-fw fa-dice-six',
                         Us&nbsp;</a>
                 </div>
             </div>
-            <div class="col-md-2 col-sm-4">
+            <div class="col-md-2 col-sm-4 mt-2">
 
-                <button type="submit" class="btn btn-sm btn-gold btn-block mb-2">Doposit</button>
+                <button type="submit" class="btn btn-sm btn-gold btn-block mb-2 ">Doposit</button>
                 <button type="submit" class="btn btn-sm btn-gold btn-block mb-2">Withdraw</button>
             </div>
-            <div class="col-md-4 col-sm-12 ">
+            <div class="col-md-4 col-sm-12 mt-2">
                 <form id="loginForm" method="POST" action="{{ route('login') }}">
                     @csrf
                     <ul class="btn-group nav text-white float-md-right" id="app-top-navbar">
