@@ -356,6 +356,104 @@ img.btn-zoom {
     top: 0;
     left: 0;
 }
+.right-menu {
+    margin-right: -25vh;
+    height:auto; 
+    position:fixed; 
+    right:0px; 
+    top:175px; 
+    background:none;
+    transition: all .7s;
+    z-index: 99999;
+}
+.right-menu:hover {
+    display:block;
+    margin-right: 0;
+}
+.right-menu .move_up{
+    top:51px; 
+    left: 95px; 
+    color: white; 
+    font-family:roboto;
+    font-size: 12px; 
+    position: absolute;
+}
+.right-menu .move_up2{
+    top:68px; 
+    left: 95px; 
+    color: white; 
+    font-family:roboto;
+    font-size: 12px; 
+    position: absolute;
+}
+.right-menu .move_up3{
+    top: 68px; 
+    left: 81px; 
+    color: white; 
+    font-family:roboto;
+    font-size: 11px; 
+    position: absolute;
+    display:block; 
+    height:33px; 
+    width:132px;
+}
+.right-menu .move_up4{
+    top:99px; 
+    left: 95px; 
+    color: white; 
+    font-family:roboto;
+    font-size: 12px; 
+    position: absolute;
+}
+.right-menu .move_up5{
+    top: 99px; 
+    left: 81px; 
+    color: white; 
+    font-family:roboto;
+    font-size: 11px; 
+    position: absolute;
+    display:block; 
+    height:33px; 
+    width:132px;
+}
+.right-menu .move_up6{
+    top: 131px; 
+    left: 95px; 
+    color: white; 
+    font-family:roboto;
+    font-size: 12px; 
+    position: absolute;
+}
+.right-menu .move_up7{
+    top: 131px; 
+    left: 81px; 
+    color: white; 
+    font-family:roboto;
+    font-size: 11px; 
+    position: absolute;
+    display:block; 
+    height:33px; 
+    width:132px;
+}
+.right-menu .move_up8{
+    top: 162px; 
+    left: 95px; 
+    color: white; 
+    font-family:roboto;
+    font-size: 12px; 
+    position: absolute;
+}
+.right-menu .move_up9{
+    top: 162px; 
+    left: 81px; 
+    color: white; 
+    font-family:roboto;
+    font-size: 11px; 
+    position: absolute;
+    display:block; 
+    height:33px; 
+    width:132px;
+}
 /* For mobile phones: */
 
  /* Extra small devices (portrait phones, less than 576px) */
@@ -384,6 +482,7 @@ img.btn-zoom {
 
 .header_to{
     background-color: red;
+
 }
 
  }

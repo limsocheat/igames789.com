@@ -39,6 +39,7 @@
 
             @include('layouts.footer')
         </div>
+        @include('layouts.contact')
     </body>
 
 </html>
